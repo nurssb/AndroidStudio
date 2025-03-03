@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/music"
+    tools:context=".MusicFragment">
+
+    <Button
+        android:id="@+id/btnPlay"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#6F4B4949"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="300sp"
+        android:text="Play"
+        tools:ignore="DuplicateClickableBoundsCheck" />
+
+    <Button
+        android:id="@+id/btnPause"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#6F4B4949"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="300sp"
+        android:text="Pause"
+        android:layout_below="@id/btnPlay" />
+
+    <Button
+        android:id="@+id/btnStop"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#6F4B4949"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="300sp"
+        android:text="Stop"
+        android:layout_below="@id/btnPause" />
+
+
+</FrameLayout>

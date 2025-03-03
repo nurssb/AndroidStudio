@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#80494949">
+
+    <TextView
+        android:id="@+id/airplane_status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Airplane Mode is OFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:padding="16dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/toggle_airplane_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check Airplane Mode"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:backgroundTint="#873131"
+        android:textColor="@color/white"
+        android:padding="12dp"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

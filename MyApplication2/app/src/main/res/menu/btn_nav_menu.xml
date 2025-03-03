@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@id/home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="home" />
+    <item
+        android:title="deep_link"
+        android:icon="@drawable/baseline_link_24"
+        android:id="@id/deep_link"/>
+    <item
+        android:title="music"
+        android:icon="@drawable/baseline_music_note_24"
+        android:id="@id/music"/>
+    <item
+        android:title="airplane"
+        android:icon="@drawable/baseline_local_airport_24"
+        android:id="@id/nav_airplane"/>
+    <item
+        android:title="calendar"
+        android:icon="@drawable/baseline_calendar_month_24"
+        android:id="@+id/calendar"/>
+</menu>

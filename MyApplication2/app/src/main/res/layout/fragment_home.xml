@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/home"
+    tools:context=".homeFragment">
+
+    <Button
+        android:id="@+id/btn_deep_link"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#51595757"
+        android:shadowRadius="12"
+        android:text="Deep Link"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_music"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:backgroundTint="#51595757"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="220dp"
+        android:text="Music player"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_airplane"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:backgroundTint="#51595757"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="50dp"
+        android:text="Airplane"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_calendar"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:backgroundTint="#51595757"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="220dp"
+        android:text="Calendar"
+        android:textSize="22sp" />
+</FrameLayout>
